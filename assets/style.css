@@ -1,0 +1,127 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#F7F7F7 ;
+}
+
+
+.row {  
+
+    display: flex;   
+    flex-direction: row;
+    width: 100%;
+    padding: 2rem;
+
+  }
+.leftside{
+    display: flex;
+    flex-direction: column;
+    padding-right: 0.5rem;
+}
+
+
+.rightside{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.credentials{
+   
+    background-color: white;
+    margin-bottom: 0.5rem;
+    box-shadow: 3px 3px 5px grey;
+   
+    
+}
+.cvPhoto{
+    width: 20rem;
+    height: 17rem;
+}
+.cvPhoto img{
+    width: 20rem;
+    height: 17rem;
+    position: relative;
+}
+.cvPhoto .text {
+    position:relative;
+    bottom:90px;
+    left:10px;
+    width:300px;
+    font-weight: bold;
+    font-size: 34px;
+}
+.experience{  
+  background-color: white;  
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 3px 3px 5px grey;
+
+}
+.experience .title{
+    color: darkgreen;
+    text-emphasis-color: grey;
+
+}
+.experience .experienceItem{
+padding: 1rem;
+
+}
+.experience .experienceItem .title{
+    padding-bottom: 0.5rem;
+    color: grey;
+    font-size: 20px;
+    
+    font-weight: bold;
+}
+.experience .experienceItem .date{
+    padding-bottom: 0.5rem;
+    color: green;
+    font-size: 16px;
+}
+.education{  
+    background-color: white;
+  
+    padding-right: 0.5rem;
+    box-shadow: 3px 3px 5px grey;
+ 
+}
+.education .educationItem{
+    padding: 1rem;
+    
+    }
+    .education .educationItem .title{
+        padding-bottom: 0.5rem;
+        color: grey;
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .education .educationItem .date{
+        padding-bottom: 0.5rem;
+        color: green;
+        font-size: 16px;
+    }
+.personDetails{
+  padding: 1rem;
+}
+.personDetails i{
+    color: green;
+}
+.footer{
+    background-color: green;
+    text-align: center;
+    color: white;
+}
+@media only screen and (max-width: 460px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+
